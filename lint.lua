@@ -3,7 +3,7 @@ VERSION = "0.0.5"
 local config = import("micro/config")
 
 function init()
-    linter.makeLinter("typescript", "typescript", "tsc", {"--noEmit"}, "%f(%l,%c): %m")
+    -- linter.makeLinter("typescript", "typescript", "tsc", {"--noEmit"}, "%f(%l,%c): %m")
 
     config.AddRuntimeFile("linter-typescript", config.RTHelp, "help/linter-typescript.md")
 
