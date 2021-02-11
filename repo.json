@@ -1,0 +1,15 @@
+[{
+  "Name": "micro-linter-typescript",
+  "Description": "A linter for Typescript files using Eslint",
+  "Website": "https://github.com/sebastianks/micro-linter-typescript",
+  "Tags": ["linting", "typescript"],
+  "Versions": [
+    {
+      "Version": "0.0.1",
+      "Url": "https://github.com/sebastianks/micro-linter-typescript/archive/v0.0.1.zip",
+      "Require": {
+        "micro": ">=2.0.0"
+      }
+    }
+  ]
+}]
