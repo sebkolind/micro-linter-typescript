@@ -1,10 +1,9 @@
-VERSION = "0.0.12"
+VERSION = "1.0.0"
 
-local micro = import("micro")
 local config = import("micro/config")
 
 function init()
-	micro.Log(("lintertypescript log: %s"):format("Typescript Linter started."))
-    linter.makeLinter("typescript", "typescript", "tsc", {}, "%f:%l:%c - %m")
-    config.AddRuntimeFile("linter-typescript", config.RTHelp, "help/linter-typescript.md")
+    linter.makeLinter("tsc", "typescript", "tsc", {"--noEmit", "--pretty", "false"}, "%f%(%l,%c%): %m")
+    linter.makeLinter("tscreact", "typescriptreact", "tsc", {"--noEmit", "--pretty", "false"}, "%f%(%l,%c%): %m")
+    config.AddRuntimeFile("lintertypescript", config.RTHelp, "help/linter-typescript.md")
 end

@@ -1,12 +1,12 @@
 [{
   "Name": "lintertypescript",
-  "Description": "A linter for Typescript files using tsc",
+  "Description": "A linter for Typescript (.ts & .tsx) using tsc and linter",
   "Website": "https://github.com/sebastianks/micro-linter-typescript",
   "Tags": ["linting", "typescript"],
   "Versions": [
     {
-      "Version": "0.0.12",
-      "Url": "https://github.com/sebastianks/micro-linter-typescript/archive/v0.0.12.zip",
+      "Version": "1.0.0",
+      "Url": "https://github.com/sebastianks/micro-linter-typescript/archive/v1.0.0.zip",
       "Require": {
         "micro": ">=2.0.0"
       }
