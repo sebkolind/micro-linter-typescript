@@ -16,4 +16,12 @@ You might have some success using the `incremental` option in your `tsconfig.jso
 
 ## Install
 
+Add this repo as a `pluginrepos` option like this:
+
+```json
+"pluginrepos": [
+  "https://raw.githubusercontent.com/sebastianks/micro-linter-typescript/master/repo.json"
+],
+```
+
 Install with `> plugin install lintertypescript`.
