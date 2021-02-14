@@ -5,8 +5,8 @@
   "Tags": ["linting", "typescript"],
   "Versions": [
     {
-      "Version": "1.0.1",
-      "Url": "https://github.com/sebastianks/micro-linter-typescript/archive/v1.0.1.zip",
+      "Version": "1.0.2",
+      "Url": "https://github.com/sebastianks/micro-linter-typescript/archive/v1.0.2.zip",
       "Require": {
         "micro": ">=2.0.0"
       }
