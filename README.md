@@ -6,7 +6,7 @@ This plugin provides the ability to lint your Typescript (.ts & .tsx) files with
 
 It requires that you have `tsc` available in your path. So, `npm i -g typescript` would do the job in most cases.
 
-This is not a requirement but a recommendation: You should add syntax highlighting for `.tsx` files by adding a copy of `~/PATH_TO_MICRO/runtime/syntax/typescript.yaml` and change `filename` to `"\\.(ts|tsx)$"`.
+This is not a requirement but a recommendation: You should add syntax highlighting for `.tsx` files by adding a copy of `~/PATH_TO_MICRO/runtime/syntax/typescript.yaml` and change `filename` to `"\\.tsx?$"`.
 
 ## Speed of things
 
